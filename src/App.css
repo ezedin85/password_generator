@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #222c35;
+  color: white;
+}
+
+
+#title{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 3rem;
+}
+
+.main{
+  max-width: 500px;
+  margin: 3em auto;
+  border: solid 1px #f2b900;
+  border-radius: 20px;
+}
+
+#pwd{
+  width: fit-content;
+  margin: 10px auto;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+#copy{
+  margin-left: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: rgb(248, 247, 247);
+  position: relative;
+}
+
+#copy:active{
+  color: rgb(230, 230, 230);
+  transform: scale(.95);
+}
+
+#size{
+  width: 50px;
+}
+
+.inputs{
+  margin: 30px;
+}
+
+.input{
+  margin-bottom: 20px;
+}
+
+.inputs label{
+  cursor: pointer;
+}
+
+input{
+  outline: none;
+}
+
+@media screen and (max-width: 468px) {
+  #title{
+    font-size: 2rem;
+  }
+  .main{
+    width: 98%;
+  }
+  .inputs label{
+    font-size: .9rem;
+  }
+  #pwd{
+    font-size: 1.2rem;
+  }
+}
